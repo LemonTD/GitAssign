@@ -1,15 +1,15 @@
 import java.util.Scanner;
+
 public class Maths {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-
-        System.out.println("Enter operator: ");
-            String operator = input.nextLine();
-        System.out.println("Enter FirstNumber: ");
-            double number1 = input.nextDouble(); // incase of decimal place result
+         System.out.println("Enter FirstNumber: ");
+            int number1 = input.nextInt(); // incase of decimal place result
         System.out.println("Enter SecondNumber: ");
-            double number2 = input.nextDouble();
-
+            int number2 = input.nextInt();
+         Scanner input1 = new Scanner(System.in);
+         System.out.println("Enter operator: ");
+            String operator = input1.nextLine();
 
         double addition = number1 + number2;
         double subtraction = number1 - number2;
